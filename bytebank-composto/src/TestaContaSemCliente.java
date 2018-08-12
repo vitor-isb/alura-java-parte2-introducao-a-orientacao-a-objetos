@@ -2,7 +2,7 @@
 public class TestaContaSemCliente {
 	public static void main(String[] args) {
 		Conta contadaAna = new Conta();
-		System.out.println(contadaAna.saldo);
+		System.out.println(contadaAna.getSaldo());
 		
 		contadaAna.titular = new Cliente();
 		System.out.println(contadaAna.titular);
